@@ -94,14 +94,14 @@ To run the project locally, follow these steps:
 
 ```
 souq/
-├── client/                 # Frontend (React, Chakra UI, Zustand)
+├── frontend/                 # Frontend (React, Chakra UI, Zustand)
 │   ├── public/
 │   ├── src/
 │   │   ├── components/    # Reusable React components
 │   │   ├── store/         # Zustand store for state management
 │   │   ├── pages/         # Page components
 │   │   └── App.js         # Main React app component
-├── server/                 # Backend (Node.js, Express)
+├── frontend/                 # Backend (Node.js, Express)
 │   ├── routes/            # API routes
 │   ├── controllers/       # Business logic
 │   ├── models/            # Data models (if using a database)
