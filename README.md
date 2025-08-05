@@ -51,12 +51,12 @@ To run the project locally, follow these steps:
 2. **Install Dependencies**
    - For the frontend:
      ```bash
-     cd client
+     cd frontend
      npm install
      ```
    - For the backend:
      ```bash
-     cd server
+     cd ..
      npm install
      ```
 
@@ -70,17 +70,17 @@ To run the project locally, follow these steps:
 4. **Run the Application**
    - Start the backend:
      ```bash
-     cd server
-     npm start
+     cd backend
+     npm run dev
      ```
    - Start the frontend:
      ```bash
-     cd client
-     npm start
+     cd frontend
+     npm run dev
      ```
 
 5. **Access the Application**
-   Open your browser and navigate to `http://localhost:3000` for the frontend. The backend API will be available at `http://localhost:5000`.
+   Open your browser and navigate to `http://localhost:5173` for the frontend. The backend API will be available at `http://localhost:5000`.
 
 ## Usage
 
